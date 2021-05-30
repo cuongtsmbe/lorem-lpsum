@@ -1,0 +1,41 @@
+.App{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100%;
+  flex-direction: column;
+}
+.App .input_button{
+  width:auto;
+  display: flex;
+  flex-direction: row;
+  height:50px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:50px;
+}
+.App .input_button input{
+  width: 50px;
+  margin:0px 10px;
+}
+.App .input_button button{
+  padding:10px;
+  background-color: white;
+  border:0.5px solid #00deff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.App .input_button button:active{
+  padding:10px;
+  background-color: #ffdbdb;
+  border:0.5px solid #00deff;
+  font-weight: bold;
+  color:white;
+  font-size: 12px;
+}
+.App p{
+  font-size:12px;
+  padding:10px 0px; 
+  width:600px;
+}
